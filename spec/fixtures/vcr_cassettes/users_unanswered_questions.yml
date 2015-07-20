@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.2/users/53821/questions/unanswered?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&site=gamedev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Mon, 20 Jul 2015 17:15:18 GMT
+      Content-Length:
+      - '541'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"items":[{"tags":["unity","shaders","particles","terrain-rendering"],"owner":{"reputation":198,"user_id":53821,"user_type":"registered","profile_image":"http://i.stack.imgur.com/nX7pu.png?s=128&g=1","display_name":"Daniel
+        Holst","link":"http://gamedev.stackexchange.com/users/53821/daniel-holst"},"is_answered":false,"view_count":236,"answer_count":1,"score":15,"last_activity_date":1437070859,"creation_date":1435828321,"last_edit_date":1437070859,"question_id":103313,"link":"http://gamedev.stackexchange.com/questions/103313/how-can-i-implement-a-short-cut-grass-effect","title":"How
+        can I implement a short-cut grass effect?"},{"tags":["unity","c#","procedural-generation","triangles","mesh"],"owner":{"reputation":198,"user_id":53821,"user_type":"registered","profile_image":"http://i.stack.imgur.com/nX7pu.png?s=128&g=1","display_name":"Daniel
+        Holst","link":"http://gamedev.stackexchange.com/users/53821/daniel-holst"},"is_answered":true,"view_count":52,"accepted_answer_id":103048,"answer_count":1,"score":1,"last_activity_date":1435437977,"creation_date":1435393191,"last_edit_date":1435437977,"question_id":103047,"link":"http://gamedev.stackexchange.com/questions/103047/generating-mesh-along-path","title":"Generating
+        mesh along path"}],"has_more":false,"quota_max":10000,"quota_remaining":9800}'
+    http_version: 
+  recorded_at: Mon, 20 Jul 2015 17:15:19 GMT
+recorded_with: VCR 2.9.3

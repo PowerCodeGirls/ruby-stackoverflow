@@ -6,8 +6,8 @@ end
 
 def configure_stackoverflow
   RubyStackoverflow.configure do|config|
-    config.client_key = ENV['client_key']
-    config.access_token = ENV['access_token']
+    config.client_key = 'ZEGYIdaRKJ4eFpqjOrX6dw(('
+    config.access_token = 'eS6EyGy7zC8Rqmpz5CDxSg))'
   end
 end
 
