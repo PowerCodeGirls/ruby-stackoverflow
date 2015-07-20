@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.2/users/1430/comments/189?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&site=gamedev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Mon, 20 Jul 2015 18:41:11 GMT
+      Content-Length:
+      - '403'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"items":[{"owner":{"reputation":56601,"user_id":1430,"user_type":"moderator","profile_image":"http://i.stack.imgur.com/jJCFx.png?s=128&g=1","display_name":"Josh
+        Petrie","link":"http://gamedev.stackexchange.com/users/1430/josh-petrie"},"reply_to_user":{"reputation":11827,"user_id":189,"user_type":"registered","accept_rate":100,"profile_image":"https://www.gravatar.com/avatar/0087f137790db9fb677130c0d03f74e7?s=128&d=identicon&r=PG","display_name":"Ricket","link":"http://gamedev.stackexchange.com/users/189/ricket"},"edited":false,"score":0,"creation_date":1320854778,"post_id":19577,"comment_id":30524}],"has_more":false,"quota_max":10000,"quota_remaining":9731}'
+    http_version: 
+  recorded_at: Mon, 20 Jul 2015 18:41:12 GMT
+recorded_with: VCR 2.9.3

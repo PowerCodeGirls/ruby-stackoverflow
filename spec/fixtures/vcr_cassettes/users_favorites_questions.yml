@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.2/users/39518;40264/favorites?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&site=gamedev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Mon, 20 Jul 2015 16:59:10 GMT
+      Content-Length:
+      - '1202'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"items":[{"tags":["design-patterns","development-speed"],"owner":{"reputation":341,"user_id":64595,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/df4c7ab04963bb832ae5935638305b9e?s=128&d=identicon&r=PG&f=1","display_name":"newton1212","link":"http://gamedev.stackexchange.com/users/64595/newton1212"},"is_answered":true,"view_count":164,"accepted_answer_id":101703,"answer_count":2,"score":8,"last_activity_date":1433372085,"creation_date":1433037186,"question_id":101701,"link":"http://gamedev.stackexchange.com/questions/101701/large-scale-iterative-design","title":"Large
+        scale iterative design"},{"tags":["c++","engine","entity-system","optimization"],"owner":{"reputation":211,"user_id":50178,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/ad0d170125b88eddab447d9c6030f428?s=128&d=identicon&r=PG","display_name":"Haydn
+        V. Harach","link":"http://gamedev.stackexchange.com/users/50178/haydn-v-harach"},"is_answered":true,"view_count":1118,"answer_count":1,"score":15,"last_activity_date":1418031991,"creation_date":1408219048,"last_edit_date":1408244975,"question_id":82030,"link":"http://gamedev.stackexchange.com/questions/82030/how-are-entity-systems-cache-efficient","title":"How
+        are entity systems cache-efficient?"},{"tags":["level-design","grid","hexagon"],"owner":{"reputation":261,"user_id":1919,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/386d054a2a93527680bbe41fb7f2a0f3?s=128&d=identicon&r=PG","display_name":"Click
+        Ok","link":"http://gamedev.stackexchange.com/users/1919/click-ok"},"is_answered":true,"view_count":7685,"accepted_answer_id":54028,"answer_count":4,"score":26,"last_activity_date":1395418606,"creation_date":1366234583,"last_edit_date":1388772912,"question_id":54027,"link":"http://gamedev.stackexchange.com/questions/54027/why-dont-we-use-octogonal-maps-instead-of-hexagonal-maps","title":"Why
+        don&#39;t we use octogonal maps instead of hexagonal maps?"},{"tags":["algorithm","path-finding"],"owner":{"reputation":351,"user_id":30330,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/94ef8b13a720b7a3efe2fb98c86876b1?s=128&d=identicon&r=PG","display_name":"ngoaho91","link":"http://gamedev.stackexchange.com/users/30330/ngoaho91"},"is_answered":true,"view_count":154,"answer_count":1,"score":4,"last_activity_date":1394606775,"creation_date":1393955829,"question_id":71371,"link":"http://gamedev.stackexchange.com/questions/71371/pathfinding-avoid-a-list-of-polygon","title":"Pathfinding
+        avoid a list of polygon"},{"tags":["game-design","inventory"],"owner":{"reputation":21031,"user_id":21890,"user_type":"registered","accept_rate":64,"profile_image":"https://www.gravatar.com/avatar/24231f169c1ed55850339ec5d62047c5?s=128&d=identicon&r=PG","display_name":"Philipp","link":"http://gamedev.stackexchange.com/users/21890/philipp"},"is_answered":true,"view_count":16429,"protected_date":1368722626,"closed_date":1392394277,"accepted_answer_id":55834,"answer_count":33,"community_owned_date":1369029097,"score":181,"last_activity_date":1392394249,"creation_date":1368630386,"last_edit_date":1368648120,"question_id":55558,"link":"http://gamedev.stackexchange.com/questions/55558/how-to-prevent-the-too-awesome-to-use-syndrome","closed_reason":"primarily
+        opinion-based","title":"How to prevent the &quot;Too awesome to use&quot;
+        syndrome"}],"has_more":false,"quota_max":10000,"quota_remaining":9829}'
+    http_version: 
+  recorded_at: Mon, 20 Jul 2015 16:59:11 GMT
+recorded_with: VCR 2.9.3

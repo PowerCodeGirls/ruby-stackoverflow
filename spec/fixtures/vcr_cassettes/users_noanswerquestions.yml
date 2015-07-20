@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.2/users/34618/questions/no-answers?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&site=gamedev
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Mon, 20 Jul 2015 17:12:09 GMT
+      Content-Length:
+      - '434'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"items":[{"tags":["opengl","c++11","fractal"],"owner":{"reputation":1,"user_id":34618,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/61cc34c3ccafb39767318ae74f29054f?s=128&d=identicon&r=PG","display_name":"darpan1118","link":"http://gamedev.stackexchange.com/users/34618/darpan1118"},"is_answered":false,"view_count":6,"answer_count":0,"score":-1,"last_activity_date":1437409781,"creation_date":1437409781,"question_id":104285,"link":"http://gamedev.stackexchange.com/questions/104285/help-with-zoom-in-functionality-in-mandelbrot-set","title":"Help
+        with Zoom in Functionality in Mandelbrot set"}],"has_more":false,"quota_max":10000,"quota_remaining":9806}'
+    http_version: 
+  recorded_at: Mon, 20 Jul 2015 17:12:09 GMT
+recorded_with: VCR 2.9.3
