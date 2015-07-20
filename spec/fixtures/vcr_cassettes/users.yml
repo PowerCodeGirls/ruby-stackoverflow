@@ -2,60 +2,83 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.2/users/?access_token=L0J88cciBPHiGtIKCul6Gg))&inname=raysrashmi&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow&sort=reputation
+    uri: https://api.stackexchange.com/2.2/users/?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&inname=andrew&key=ZEGYIdaRKJ4eFpqjOrX6dw((&site=gamedev&sort=reputation
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "U2VydmVy":
-      - !binary |-
-        bmdpbng=
-      !binary "RGF0ZQ==":
-      - !binary |-
-        RnJpLCAyNSBPY3QgMjAxMyAyMToyMTozNCBHTVQ=
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
-      !binary "Q29ubmVjdGlvbg==":
-      - !binary |-
-        a2VlcC1hbGl2ZQ==
-      !binary "Q2FjaGUtQ29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZQ==
-      !binary "Q29udGVudC1FbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
-      - !binary |-
-        Kg==
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
-      - !binary |-
-        R0VULCBQT1NU
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
-      - !binary |-
-        ZmFsc2U=
-      !binary "Q29udGVudC1MZW5ndGg=":
-      - !binary |-
-        NDMw
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Mon, 20 Jul 2015 16:56:48 GMT
+      Content-Length:
+      - '3245'
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAEAHWSy47bMAxFf6XQYlbG+CE/YgNBl90WmGVRGIzM2EL08Ehy
-        XDfIv5d2ks4USLUSeHUp8pAXJgNqz5ofFzZ5dK3sWJPykme8jG6RsIzIGuaw
-        lz6gw45FTDiEIK1pOwi4GnhRkolXEeukHxUsrQG92WDxDvygJdlGZ49SYSs1
-        9Ks4hDD6Jo7neX7tHZwhgHsVVse3a4wcizrjosKsLvK02GF9qA9JXnNRpzwT
-        X/0+zXYv3V52aIIU1ry4/fdv9JPDcQpbiVRdkX4OtGIA0yOVvrAmeabMiCfW
-        5MUzTVsTBsqZPVXfJ3DE6L/6grCKBX2rwIcWhEDv/1LcZRXnvH6o2nbyKLH7
-        pBdlnnAeMelb1KOyC5JwBOWRPNKc7lCJqQ8gTvaM7qjsvEFdp+nj+3DjfwYz
-        48HTIrSTUx8ZPl6sdnqlrLgjZW/BitNglY6+vM1I9EmmZuxkwm2F8jxPSlqh
-        A3TU9ybQll1Yb1W3YfdSnVdSdD04a35TH8X1+jNi75MN0DrUII00PWvquqoe
-        YQ2/KHlCJ2IDeELkHgCufwD4zSj6zAIAAA==
-    http_version:
-  recorded_at: Fri, 25 Oct 2013 21:21:34 GMT
-recorded_with: VCR 2.6.0
+      string: '{"items":[{"badge_counts":{"bronze":89,"silver":39,"gold":5},"account_id":55286,"is_employee":false,"last_modified_date":1432137108,"last_access_date":1437404395,"reputation_change_year":341,"reputation_change_quarter":15,"reputation_change_month":15,"reputation_change_week":5,"reputation_change_day":5,"reputation":18954,"creation_date":1279203256,"user_type":"registered","user_id":288,"accept_rate":67,"location":"Brisbane,
+        Australia","website_url":"http://www.andrewrussell.net/","link":"http://gamedev.stackexchange.com/users/288/andrew-russell","profile_image":"https://www.gravatar.com/avatar/eac2e824ea361ad482a00e73214b7e6c?s=128&d=identicon&r=PG","display_name":"Andrew
+        Russell"},{"badge_counts":{"bronze":6,"silver":5,"gold":0},"account_id":126166,"is_employee":false,"last_modified_date":1432137108,"last_access_date":1288002211,"age":26,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":619,"creation_date":1279136111,"user_type":"registered","user_id":94,"location":"Boston,
+        MA","website_url":"http://mercuric.net","link":"http://gamedev.stackexchange.com/users/94/andrew-brockert","profile_image":"https://www.gravatar.com/avatar/3fcb8656a819741bb919495993c85615?s=128&d=identicon&r=PG","display_name":"Andrew
+        Brockert"},{"badge_counts":{"bronze":5,"silver":2,"gold":0},"account_id":208255,"is_employee":false,"last_modified_date":1332296896,"last_access_date":1379384252,"age":32,"reputation_change_year":40,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":426,"creation_date":1285355598,"user_type":"registered","user_id":2272,"website_url":"","link":"http://gamedev.stackexchange.com/users/2272/andrew-wang","profile_image":"https://www.gravatar.com/avatar/d8b25da076d64fc14c3ca173b5414400?s=128&d=identicon&r=PG","display_name":"Andrew
+        Wang"},{"badge_counts":{"bronze":6,"silver":2,"gold":0},"account_id":224738,"is_employee":false,"last_modified_date":1422303511,"last_access_date":1371602247,"age":27,"reputation_change_year":10,"reputation_change_quarter":10,"reputation_change_month":10,"reputation_change_week":0,"reputation_change_day":0,"reputation":270,"creation_date":1322428042,"user_type":"registered","user_id":11439,"location":"Toronto,
+        Canada","website_url":"http://www.littlebigcomputers.ca","link":"http://gamedev.stackexchange.com/users/11439/andrew-jackman","profile_image":"https://www.gravatar.com/avatar/1d690be98e84a5fc103b5feecf9d726c?s=128&d=identicon&r=PG","display_name":"Andrew
+        Jackman"},{"badge_counts":{"bronze":10,"silver":1,"gold":0},"account_id":425213,"is_employee":false,"last_modified_date":1436471405,"last_access_date":1434555308,"age":25,"reputation_change_year":5,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":196,"creation_date":1333463292,"user_type":"registered","user_id":14992,"accept_rate":40,"location":"London,
+        United Kingdom","link":"http://gamedev.stackexchange.com/users/14992/andrew","profile_image":"https://www.gravatar.com/avatar/4f5b7b9f8df4e82ac102ba10f90a5488?s=128&d=identicon&r=PG","display_name":"andrew"},{"badge_counts":{"bronze":6,"silver":0,"gold":0},"account_id":58087,"is_employee":false,"last_modified_date":1380744020,"last_access_date":1431406577,"age":43,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":176,"creation_date":1380744020,"user_type":"registered","user_id":35698,"location":"Austin,
+        TX","website_url":"http://stackoverflow.com/users/173964/andrews","link":"http://gamedev.stackexchange.com/users/35698/andrews","profile_image":"https://www.gravatar.com/avatar/6deca39a65c5d4c645492c380fec9145?s=128&d=identicon&r=PG","display_name":"AndrewS"},{"badge_counts":{"bronze":9,"silver":2,"gold":0},"account_id":1319542,"is_employee":false,"last_modified_date":1332296905,"last_access_date":1423061055,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":157,"creation_date":1331613210,"user_type":"registered","user_id":14338,"location":"Central
+        USA","link":"http://gamedev.stackexchange.com/users/14338/andrewachilles","profile_image":"http://i.stack.imgur.com/7cih5.png?s=128&g=1","display_name":"AndrewAchilles"},{"badge_counts":{"bronze":4,"silver":0,"gold":0},"account_id":221831,"is_employee":false,"last_modified_date":1343014263,"last_access_date":1357193298,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":156,"creation_date":1288129890,"user_type":"registered","user_id":2817,"location":"United
+        States","website_url":"http://andrewmunsell.com/","link":"http://gamedev.stackexchange.com/users/2817/andrew-m","profile_image":"https://www.gravatar.com/avatar/fef982dcfe1a7bcba4849b4c281bba96?s=128&d=identicon&r=PG","display_name":"Andrew
+        M"},{"badge_counts":{"bronze":6,"silver":0,"gold":0},"account_id":7074,"is_employee":false,"last_modified_date":1386921973,"last_access_date":1339697409,"age":26,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":138,"creation_date":1279827627,"user_type":"registered","user_id":852,"location":"Los
+        Angeles, CA","website_url":"http://deceptacle.com","link":"http://gamedev.stackexchange.com/users/852/andrew-burgess","profile_image":"https://www.gravatar.com/avatar/16f47985e3e66d4e592406b4acc2786f?s=128&d=identicon&r=PG","display_name":"Andrew
+        Burgess"},{"badge_counts":{"bronze":5,"silver":0,"gold":0},"account_id":3523392,"is_employee":false,"last_modified_date":1412738361,"last_access_date":1436640966,"age":19,"reputation_change_year":-1,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":138,"creation_date":1385947041,"user_type":"registered","user_id":39522,"location":"Arizona","website_url":"http://www.lemonfinity.com","link":"http://gamedev.stackexchange.com/users/39522/lemony-andrew","profile_image":"https://www.gravatar.com/avatar/381bb439558b1ed3e7188fe885c33677?s=128&d=identicon&r=PG","display_name":"Lemony-Andrew"},{"badge_counts":{"bronze":8,"silver":0,"gold":0},"account_id":3469998,"is_employee":false,"last_modified_date":1423666704,"last_access_date":1437381483,"reputation_change_year":131,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":138,"creation_date":1404801579,"user_type":"registered","user_id":49088,"accept_rate":58,"location":"TX","website_url":"","link":"http://gamedev.stackexchange.com/users/49088/andrew-wilson","profile_image":"http://i.stack.imgur.com/OnykZ.jpg?s=128&g=1","display_name":"Andrew
+        Wilson"},{"badge_counts":{"bronze":2,"silver":0,"gold":0},"account_id":9008,"is_employee":false,"last_modified_date":1332296905,"last_access_date":1435854477,"age":34,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":131,"creation_date":1289826819,"user_type":"registered","user_id":3346,"location":"United
+        States","website_url":"http://andrewgarrison.com","link":"http://gamedev.stackexchange.com/users/3346/andrew-garrison","profile_image":"https://www.gravatar.com/avatar/314c68904153558f77a68628bec810fe?s=128&d=identicon&r=PG","display_name":"Andrew
+        Garrison"},{"badge_counts":{"bronze":2,"silver":0,"gold":0},"account_id":158764,"is_employee":false,"last_modified_date":1383850621,"last_access_date":1344224933,"age":43,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":116,"creation_date":1343710305,"user_type":"registered","user_id":18551,"location":"Seattle,
+        WA","website_url":"http://learningcsharpnet.blogspot.com","link":"http://gamedev.stackexchange.com/users/18551/andrew-cooper","profile_image":"https://www.gravatar.com/avatar/c283eb26acb080a5061c05b5d55edd43?s=128&d=identicon&r=PG","display_name":"Andrew
+        Cooper"},{"badge_counts":{"bronze":4,"silver":0,"gold":0},"account_id":1915961,"is_employee":false,"last_modified_date":1380696410,"last_access_date":1437271364,"age":18,"reputation_change_year":5,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":116,"creation_date":1358763843,"user_type":"registered","user_id":25417,"location":"Somewhere
+        over the rainbow","website_url":"http://crossbowffs.tumblr.com","link":"http://gamedev.stackexchange.com/users/25417/andrew-sun","profile_image":"https://www.gravatar.com/avatar/3884a2f2ee43a4681967493905dcc20c?s=128&d=identicon&r=PG","display_name":"Andrew
+        Sun"},{"badge_counts":{"bronze":2,"silver":0,"gold":0},"account_id":1046795,"is_employee":false,"last_modified_date":1423056005,"last_access_date":1424933265,"age":26,"reputation_change_year":15,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":116,"creation_date":1384863325,"user_type":"registered","user_id":39157,"location":"India","link":"http://gamedev.stackexchange.com/users/39157/andrewww","profile_image":"https://www.gravatar.com/avatar/10317da15191662bbda7bc524c577309?s=128&d=identicon&r=PG","display_name":"andrewww"},{"badge_counts":{"bronze":5,"silver":0,"gold":0},"account_id":1498928,"is_employee":false,"last_modified_date":1397876677,"last_access_date":1397161587,"age":28,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":115,"creation_date":1368643636,"user_type":"registered","user_id":30724,"location":"Austin,
+        TX","website_url":"http://andrewrgray.info","link":"http://gamedev.stackexchange.com/users/30724/andrew-gray","profile_image":"http://i.stack.imgur.com/NwiYe.jpg?s=128&g=1","display_name":"Andrew
+        Gray"},{"badge_counts":{"bronze":3,"silver":0,"gold":0},"account_id":20341,"is_employee":false,"last_modified_date":1369341546,"last_access_date":1428203516,"age":30,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":113,"creation_date":1369341546,"user_type":"registered","user_id":31086,"location":"Portland,
+        OR","website_url":"http://www.andrewhavens.com","link":"http://gamedev.stackexchange.com/users/31086/andrew","profile_image":"https://www.gravatar.com/avatar/1c787bc735dbe80ec2f88824e1d10c6c?s=128&d=identicon&r=PG","display_name":"Andrew"},{"badge_counts":{"bronze":1,"silver":0,"gold":0},"account_id":56575,"is_employee":false,"last_modified_date":1332296908,"last_access_date":1413154984,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":111,"creation_date":1308330414,"user_type":"registered","user_id":8099,"link":"http://gamedev.stackexchange.com/users/8099/andrew","profile_image":"https://www.gravatar.com/avatar/4b138a56fa1e625a8b59a128519c7b64?s=128&d=identicon&r=PG","display_name":"Andrew"},{"badge_counts":{"bronze":2,"silver":0,"gold":0},"account_id":9267,"is_employee":false,"last_modified_date":1414002218,"last_access_date":1289922534,"age":36,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1279760700,"user_type":"registered","user_id":565,"location":"Kansas
+        City","website_url":"http://N/A","link":"http://gamedev.stackexchange.com/users/565/andrew","profile_image":"https://www.gravatar.com/avatar/cc01aef23f823bcb6d064c7fbc2b6bee?s=128&d=identicon&r=PG","display_name":"Andrew"},{"badge_counts":{"bronze":1,"silver":0,"gold":0},"account_id":157533,"is_employee":false,"last_modified_date":1332296938,"last_access_date":1279844447,"age":24,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1279844447,"user_type":"registered","user_id":894,"location":"Earth,
+        TX","website_url":"http://systemerror.biz.tm/","link":"http://gamedev.stackexchange.com/users/894/andrew","profile_image":"https://www.gravatar.com/avatar/c84582b6a6f783c31031ade65f2e933c?s=128&d=identicon&r=PG","display_name":"Andrew"},{"badge_counts":{"bronze":1,"silver":0,"gold":0},"account_id":12904,"is_employee":false,"last_modified_date":1392233176,"last_access_date":1370453877,"age":38,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1279916645,"user_type":"registered","user_id":969,"location":"Calgary,
+        Canada","website_url":"http://andlewis.com","link":"http://gamedev.stackexchange.com/users/969/andrew-lewis","profile_image":"https://www.gravatar.com/avatar/0f52d9bce4427e6a0e36a0f7d78ec6ae?s=128&d=identicon&r=PG","display_name":"Andrew
+        Lewis"},{"badge_counts":{"bronze":2,"silver":0,"gold":0},"account_id":1668,"is_employee":false,"last_modified_date":1396152851,"last_access_date":1343086693,"age":35,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1281174532,"user_type":"registered","user_id":1523,"location":"Melbourne,
+        Australia","website_url":"http://dropbearcode.blogspot.com/","link":"http://gamedev.stackexchange.com/users/1523/andrew-walker","profile_image":"http://i.stack.imgur.com/4bZ01.jpg?s=128&g=1","display_name":"Andrew
+        Walker"},{"badge_counts":{"bronze":1,"silver":0,"gold":0},"account_id":50771,"is_employee":false,"last_modified_date":1332296936,"last_access_date":1415609815,"age":26,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1283962710,"user_type":"registered","user_id":2072,"location":"Michigan","website_url":"http://www.neocodenetworks.com","link":"http://gamedev.stackexchange.com/users/2072/andrew-koester","profile_image":"https://www.gravatar.com/avatar/fc3015cf70c3bebd186fc66af6f48759?s=128&d=identicon&r=PG","display_name":"Andrew
+        Koester"},{"badge_counts":{"bronze":2,"silver":0,"gold":0},"account_id":17863,"is_employee":false,"last_modified_date":1370537443,"last_access_date":1434435989,"age":42,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1287810622,"user_type":"registered","user_id":2695,"location":"Auburn,
+        AL","website_url":"http://www.hiive.com","link":"http://gamedev.stackexchange.com/users/2695/andrew-rollings","profile_image":"http://i.stack.imgur.com/TNjfF.png?s=128&g=1","display_name":"Andrew
+        Rollings"},{"badge_counts":{"bronze":2,"silver":0,"gold":0},"account_id":346,"is_employee":false,"last_modified_date":1408591053,"last_access_date":1426046296,"age":26,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1287991463,"user_type":"registered","user_id":2752,"location":"United
+        States","website_url":"http://andrewkelley.me/","link":"http://gamedev.stackexchange.com/users/2752/andrewrk","profile_image":"https://www.gravatar.com/avatar/c641a026e20b5457fdc69a1d9f256cc5?s=128&d=identicon&r=PG","display_name":"andrewrk"},{"badge_counts":{"bronze":1,"silver":0,"gold":0},"account_id":41441,"is_employee":false,"last_modified_date":1397569736,"last_access_date":1314103679,"age":30,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1289135012,"user_type":"registered","user_id":3125,"location":"Bath,
+        United Kingdom","website_url":"http://github.com/andrew","link":"http://gamedev.stackexchange.com/users/3125/andrew-nesbitt","profile_image":"https://www.gravatar.com/avatar/8ddbf811da78bb0daeeb3cacd7cf743f?s=128&d=identicon&r=PG","display_name":"Andrew
+        Nesbitt"},{"badge_counts":{"bronze":1,"silver":0,"gold":0},"account_id":59172,"is_employee":false,"last_modified_date":1383363938,"last_access_date":1428494754,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1289358346,"user_type":"registered","user_id":3200,"website_url":"http://oncrashreboot.com/","link":"http://gamedev.stackexchange.com/users/3200/andrew-dufresne","profile_image":"https://www.gravatar.com/avatar/a64dc93c5a8cd702b7bdfeca9f1a384f?s=128&d=identicon&r=PG","display_name":"Andrew-Dufresne"},{"badge_counts":{"bronze":2,"silver":0,"gold":0},"account_id":265988,"is_employee":false,"last_modified_date":1374770981,"last_access_date":1353180031,"age":34,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1293753676,"user_type":"registered","user_id":4322,"location":"United
+        States","link":"http://gamedev.stackexchange.com/users/4322/andrew-finnell","profile_image":"https://www.gravatar.com/avatar/6972093a104a8b6563de901d25cedd89?s=128&d=identicon&r=PG","display_name":"Andrew
+        Finnell"},{"badge_counts":{"bronze":1,"silver":0,"gold":0},"account_id":17355,"is_employee":false,"last_modified_date":1359030312,"last_access_date":1368796546,"age":36,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1302488979,"user_type":"registered","user_id":6646,"location":"Sydney,
+        Australia","website_url":"http://andrewjgrimm.wordpress.com/","link":"http://gamedev.stackexchange.com/users/6646/andrew-grimm","profile_image":"https://www.gravatar.com/avatar/01bbb59a1c3ef9960f25a97afe7e920f?s=128&d=identicon&r=PG","display_name":"Andrew
+        Grimm"},{"badge_counts":{"bronze":1,"silver":0,"gold":0},"account_id":6815,"is_employee":false,"last_modified_date":1433799606,"last_access_date":1342116322,"reputation_change_year":0,"reputation_change_quarter":0,"reputation_change_month":0,"reputation_change_week":0,"reputation_change_day":0,"reputation":101,"creation_date":1303856568,"user_type":"registered","user_id":6971,"location":"San
+        Francisco, CA","website_url":"http://andrew.hedges.name/","link":"http://gamedev.stackexchange.com/users/6971/andrew-hedges","profile_image":"https://www.gravatar.com/avatar/d6203de885c311a42f5c551f048b195b?s=128&d=identicon&r=PG","display_name":"Andrew
+        Hedges"}],"has_more":true,"quota_max":10000,"quota_remaining":9835}'
+    http_version: 
+  recorded_at: Mon, 20 Jul 2015 16:56:48 GMT
+recorded_with: VCR 2.9.3

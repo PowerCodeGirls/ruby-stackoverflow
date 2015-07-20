@@ -9,20 +9,19 @@ module RubyStackoverflow
     it 'should find badges' do
       VCR.use_cassette('badges') do
         response = RubyStackoverflow.badges({min: 'gold', max: 'bronze', sort: 'rank'})
-
         expect(response.data.is_a?(Array)).to be_truthy
         expect(response.data.count).to eq(30)
-        expect(response.data.first.name).to eq('cryptography')
+        expect(response.data.first.name).to eq('Teacher')
       end
     end
 
     it 'should find badges by ids' do
       VCR.use_cassette('badges_by_ids') do
-        response = RubyStackoverflow.badges_by_ids([263, 264], {min: 'gold', max: 'bronze', sort: 'rank'})
+        response = RubyStackoverflow.badges_by_ids([1, 2], {min: 'gold', max: 'bronze', sort: 'rank'})
 
         expect(response.data.is_a?(Array)).to be_truthy
         expect(response.data.count).to eq(2)
-        expect(response.data.first.name).to eq('cryptography')
+        expect(response.data.first.name).to eq('Teacher')
       end
     end
 
@@ -42,7 +41,7 @@ module RubyStackoverflow
 
         expect(response.data.is_a?(Array)).to be_truthy
         expect(response.data.count).to eq(10)
-        expect(response.data.first.name).to eq('Nice Answer')
+        expect(response.data.first.name).to eq('Editor')
       end
     end
 
@@ -58,11 +57,11 @@ module RubyStackoverflow
 
     it 'should find badges by tags' do
       VCR.use_cassette('badges_by_tags') do
-        response = RubyStackoverflow.badges_by_tags({inname: 'ruby-on-rails',min: 'gold', max: 'bronze', sort: 'rank'})
+        response = RubyStackoverflow.badges_by_tags({inname: 'unity',min: 'gold', max: 'bronze', sort: 'rank'})
 
         expect(response.data.is_a?(Array)).to be_truthy
-        expect(response.data.count).to eq(7)
-        expect(response.data.first.name).to eq('ruby-on-rails')
+        expect(response.data.count).to eq(2)
+        expect(response.data.first.name).to eq('unity')
       end
     end
   end

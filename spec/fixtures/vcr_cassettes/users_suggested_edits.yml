@@ -2,71 +2,74 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.2/users/707894/suggested-edits?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    uri: https://api.stackexchange.com/2.2/users/2698/suggested-edits?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&site=gamedev
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "U2VydmVy":
-      - !binary |-
-        bmdpbng=
-      !binary "RGF0ZQ==":
-      - !binary |-
-        RnJpLCAyNSBPY3QgMjAxMyAyMTozNDowNyBHTVQ=
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
-      !binary "Q29ubmVjdGlvbg==":
-      - !binary |-
-        a2VlcC1hbGl2ZQ==
-      !binary "Q2FjaGUtQ29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZQ==
-      !binary "Q29udGVudC1FbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
-      - !binary |-
-        Kg==
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
-      - !binary |-
-        R0VULCBQT1NU
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
-      - !binary |-
-        ZmFsc2U=
-      !binary "Q29udGVudC1MZW5ndGg=":
-      - !binary |-
-        OTIx
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Mon, 20 Jul 2015 17:36:13 GMT
+      Content-Length:
+      - '1922'
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAEAO1XW4+bOBT+K14e+pRpMNhgIo2q0V560a40GvVttUIuHBI3
-        YFPbJI1G89/3mGSqsqWbqnlNIuVyDnAu3/cdDo+R8tC5aPX3Y+SG9Rqch7qE
-        WvlS1dFKiJQm8SLqjTsaqOAi5Wl2MvlDD9EqktrtwUaLqDJdB9qj6QE6s1N6
-        TfAQ44jUNak2Uq+DqbGmK/0ewBNviCRKOy91BaQDvzH1+B9kTUyDzqqVzp08
-        IYIF6ZXRZS09hqZpLhKeZTFdRLLvrdnJduLK4yTFZK3BLDB2OThMdPUYhe+x
-        ojzORcEWUa1c38pDqWUXSmqgVT1UrenBYVgL/eDHwHjhhCWL4wVO9VtYK0zZ
-        QsgQYzWqhVJ1ch2cG+97t1ou9/v9y7WVO+mlfYmNWh5/LinEomaiSSoWUwoJ
-        Z03K6uYD47mgtG5euVuaiBf1raqxtaoy+oW9vX+NkVqlt6cAeH3sYbU1O7BN
-        a/ZjgJCiWx4LXP6nIFlV0PvSjq0S4ulpMUsAxjNKJwRIk4zie0qATwOeF5qz
-        iLzybTC9MXtSSU3ekhAKIRz7UfbSb4g1gweygbYHG9DGyhDpB6laR1LSmRra
-        VxM2ve0CtCOdxsvP8IAnCY8FK2Z4MLoKxq88uIgHsfiGB5yd5cEfStcBuG5o
-        vepbIPdv7skaNISQQevYUEf2CmnxDk+3h+U7bIirrOr9T3Egy+PvcSBPxZUD
-        F3CApV+Ef+JAKkQuznLgT2O2pDF2lDwxmjwMHw7jd5D8BOX3eLtAUhC/gf/D
-        mTJOqZjFGV08Z1ecfx5nVohkqnUqsN/ntR5mPt7RW1NtyZgIfgbB/gY75WA6
-        0n993ga+IH1cBjpj8WYQYO2tGkeE0fDLLAuoiBnLZlkQXDwtriy4hAW54BMW
-        xFnC+VkS3FkrD+NARxlLbRBfS2QwTvC/qz8OIeIZpSOQMRVz293oyorkivEF
-        GGeCTjGmaSHEj213KFcL3irYAWlwS9/sJCp+XNpf//4efeN5BEvyWFpQv5fr
-        8KgRWRz/N0bf2NP4DzWeDg9oBOuNrDulo3++psxfcgsjXZ4TOg2LqhpCpd8Z
-        EhnlMc9mCYQuHl8JdAGB0iJPv348YEWcxSw9+3h4V49LYYWLgQICn3tl5Yli
-        MxDSjGVMhDZ/hOpbX17EVwx/AEMU06fBeFla6KTS2KtoVRQ5fzZ38jOWHuML
-        JSldGdQVrRrZOnj6F08QUJopEAAA
-    http_version:
-  recorded_at: Fri, 25 Oct 2013 21:34:07 GMT
-recorded_with: VCR 2.6.0
+      string: '{"items":[{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1312267782,"creation_date":1312267226,"post_type":"question","post_id":15469,"suggested_edit_id":591,"comment":"Let&#39;s
+        give this a title that actually has something to do with the question","title":"How
+        do I get attractive small text in XNA without using external libraries?"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1311590349,"creation_date":1311582608,"post_type":"question","post_id":15180,"suggested_edit_id":578,"comment":"This
+        isn&#39;t a tilebased game. Better title, that doesn&#39;t clash with question
+        #3964 (linked in comments)","title":"How to handle physics of moving platforms
+        in a platformer?"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1311534600,"creation_date":1311488583,"post_type":"question","post_id":15070,"suggested_edit_id":577,"comment":"Clearer
+        title","title":"Orienting a model to face a target"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1311145935,"creation_date":1311127931,"post_type":"question","post_id":15020,"suggested_edit_id":570,"comment":"Sounds
+        more like the question it is, and less like the request for applicants it
+        isn&#39;t","title":"How do I recruit beta testers?"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1310216632,"creation_date":1310216583,"post_type":"answer","post_id":14603,"suggested_edit_id":554,"comment":"Dear
+        moderators: I am an idiot. Please assist me in undoing my idiocy."},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1310191805,"creation_date":1310104811,"post_type":"answer","post_id":14603,"suggested_edit_id":551,"comment":"Some
+        of this information is flat out wrong. Tangent is used to find the angle.
+        Arctangent is used when you already know the angle. Actually I&#39;m giving
+        up at this point, but at least I&#39;ve managed to stop this answer being
+        completely wrong."},{"tags":["math"],"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1310103549,"creation_date":1310100271,"post_type":"question","post_id":14602,"suggested_edit_id":550,"comment":"This
+        has nothing to do with either flash or mechanics really. It&#39;s just a question
+        on the general usage of atan and atan2 within games.","title":"What are atan
+        and atan2 used for in games?"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1309819219,"creation_date":1309816925,"post_type":"question","post_id":14486,"suggested_edit_id":532,"comment":"Link
+        fixed"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1309504075,"creation_date":1309502239,"post_type":"question","post_id":14351,"suggested_edit_id":529,"comment":"Improved
+        layout and indenting. If I messed up some of it, do correct it!"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1309183246,"creation_date":1309170636,"post_type":"question","post_id":14211,"suggested_edit_id":521,"comment":"Neat
+        indentation is worth having."},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1308698175,"creation_date":1308694603,"post_type":"question","post_id":12570,"suggested_edit_id":511,"comment":"Improved
+        writing and corrected the code indentation"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1308613700,"creation_date":1308611514,"post_type":"question","post_id":13954,"suggested_edit_id":509,"comment":"Decreased
+        an indent level"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1307519446,"creation_date":1307518983,"post_type":"question","post_id":13342,"suggested_edit_id":478,"comment":"Minor
+        improvements"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1307498369,"creation_date":1307496382,"post_type":"answer","post_id":13331,"suggested_edit_id":477,"comment":"General
+        editing. Correct me if I got the intent of your post wrong."},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1305720785,"creation_date":1305719611,"post_type":"question","post_id":12442,"suggested_edit_id":435,"comment":"Four-space
+        indents, sir! Not backticks. And some other improvements."},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1304580474,"creation_date":1304579249,"post_type":"question","post_id":11961,"suggested_edit_id":408,"comment":"Expanded
+        an acronym. 1) Those who want to learn what this is can find out immediately
+        without first having to work out what it even stands for. 2) It is clearer
+        for one who knows about CCD but doesn&#39;t recognise the acronym."},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1304490421,"creation_date":1304488291,"post_type":"question","post_id":11911,"suggested_edit_id":405,"comment":"Let&#39;s
+        get some grammar up in here","title":"Get Vertices of a Shape/Body in Box2D"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1303918594,"creation_date":1303917837,"post_type":"answer","post_id":226,"suggested_edit_id":394,"comment":"Updated
+        an excellent and comprehensive answer with a new source"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1303225836,"creation_date":1303218716,"post_type":"question","post_id":11326,"suggested_edit_id":336,"comment":"Fixed
+        punctuation and erased some unnecessary talk (we are completely OK if the
+        newb is back, don&#39;t berate yourself as if it&#39;s a bad thing, in fact
+        it almost totally doesn&#39;t matter to us)"},{"proposing_user":{"reputation":6072,"user_id":2698,"user_type":"registered","accept_rate":75,"profile_image":"http://i.stack.imgur.com/8G3J5.png?s=128&g=1","display_name":"doppelgreener","link":"http://gamedev.stackexchange.com/users/2698/doppelgreener"},"approval_date":1303131845,"creation_date":1303128648,"post_type":"answer","post_id":8692,"suggested_edit_id":330,"comment":"What
+        if you&#39;re the top answer? Use names. :)"}],"has_more":false,"quota_max":10000,"quota_remaining":9775}'
+    http_version: 
+  recorded_at: Mon, 20 Jul 2015 17:36:14 GMT
+recorded_with: VCR 2.9.3

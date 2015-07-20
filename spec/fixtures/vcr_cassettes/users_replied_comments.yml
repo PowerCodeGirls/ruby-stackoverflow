@@ -2,59 +2,42 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.2/users/707894;1004415/comments/1300151?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    uri: https://api.stackexchange.com/2.2/users/1430/comments/189?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&site=gamedev
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "U2VydmVy":
-      - !binary |-
-        bmdpbng=
-      !binary "RGF0ZQ==":
-      - !binary |-
-        RnJpLCAyNSBPY3QgMjAxMyAyMToyMToxOSBHTVQ=
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
-      !binary "Q29ubmVjdGlvbg==":
-      - !binary |-
-        a2VlcC1hbGl2ZQ==
-      !binary "Q2FjaGUtQ29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZQ==
-      !binary "Q29udGVudC1FbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
-      - !binary |-
-        Kg==
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
-      - !binary |-
-        R0VULCBQT1NU
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
-      - !binary |-
-        ZmFsc2U=
-      !binary "Q29udGVudC1MZW5ndGg=":
-      - !binary |-
-        NDAw
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Mon, 20 Jul 2015 18:41:11 GMT
+      Content-Length:
+      - '403'
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAEAJWSP2/bMBDFv8sNmRRJlCmYEmB0a9YiGTIUBcGKJ4WJ+Kck
-        HdUw/N17lp2hyZJwIu54997vgUcwGW2C/ucRBm8tuiyNhr4RvG02XVNA8OlS
-        Yl3TcFaLAoaIKhvvpFYZqbERjHHqtgWkwUcq1QWgps00Nqo5YQF+cRihP8I+
-        YVz3beut6HgB2qQwq4N0ytIkjDibgMPsAyYoIGLY51WNhBpOhtYF+RDOjyNO
-        JmWMJEROox/NjNJYNZ2bTzmH1FfVsizlFNWryiqWBFldrhXDWmguxmbgNWPY
-        tHzccD3+5u2WgPT4Le1YI270zmiKxQze3cTdjztSmo17uQrQ/pTV8OJfMY6z
-        X1aBs8VUXQCrd0BqGDBkGdfohDitiPNBZi/PY/9FxDZ1zVr2IaN79YxOR+Xk
-        /buItuyLAZF/U64EpbHT/hLQw2PC7+VzmK4RTDv2aeqr5yq+ebyNcDr9KuDP
-        3mclI1plnHET9F0n2FvZqr+EW9Mp4EkladdvtP6d0z/thorBpAIAAA==
-    http_version:
-  recorded_at: Fri, 25 Oct 2013 21:21:19 GMT
-recorded_with: VCR 2.6.0
+      string: '{"items":[{"owner":{"reputation":56601,"user_id":1430,"user_type":"moderator","profile_image":"http://i.stack.imgur.com/jJCFx.png?s=128&g=1","display_name":"Josh
+        Petrie","link":"http://gamedev.stackexchange.com/users/1430/josh-petrie"},"reply_to_user":{"reputation":11827,"user_id":189,"user_type":"registered","accept_rate":100,"profile_image":"https://www.gravatar.com/avatar/0087f137790db9fb677130c0d03f74e7?s=128&d=identicon&r=PG","display_name":"Ricket","link":"http://gamedev.stackexchange.com/users/189/ricket"},"edited":false,"score":0,"creation_date":1320854778,"post_id":19577,"comment_id":30524}],"has_more":false,"quota_max":10000,"quota_remaining":9731}'
+    http_version: 
+  recorded_at: Mon, 20 Jul 2015 18:41:12 GMT
+recorded_with: VCR 2.9.3

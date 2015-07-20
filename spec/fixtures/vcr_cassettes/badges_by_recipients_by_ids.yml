@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.2/badges/146;20/recipients?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&page=1&pagesize=10&site=stackoverflow
+    uri: https://api.stackexchange.com/2.2/badges/146;20/recipients?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&page=1&pagesize=10&site=gamedev
     body:
       encoding: US-ASCII
       string: ''
@@ -10,61 +10,38 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "U2VydmVy":
-      - !binary |-
-        bmdpbng=
-      !binary "RGF0ZQ==":
-      - !binary |-
-        RnJpLCAyNSBPY3QgMjAxMyAyMTozNDo0OCBHTVQ=
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
-      !binary "Q29ubmVjdGlvbg==":
-      - !binary |-
-        a2VlcC1hbGl2ZQ==
-      !binary "Q2FjaGUtQ29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZQ==
-      !binary "Q29udGVudC1FbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
-      - !binary |-
-        Kg==
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
-      - !binary |-
-        R0VULCBQT1NU
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
-      - !binary |-
-        ZmFsc2U=
-      !binary "Q29udGVudC1MZW5ndGg=":
-      - !binary |-
-        ODM5
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Sun, 19 Jul 2015 23:12:10 GMT
+      Content-Length:
+      - '819'
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAEAM2XS2/jNhDHv4qhw55iS3yTBoIeukAXLfrurVgYQ3JoK7Ek
-        LyUnmw3y3UtLNrqWDm1hF/DBsEV5hvzPD/Pga1Z2WLXZ8s/XzIJf46r02ZIW
-        d1mE+jFbZjY29RfM7rIaKkzPP5UOZ7/use3Kpk7Lg1H3sju8PPzHp8V9izFb
-        vvbfvUNGpT449WW728LL6ujs9w1UZTX7AKH8kswi7vYd9I6XSupicHRyHnFd
-        th3GfoddbEK5TaetYH14uem63TLPy0XbgXtclNV6HxeuqXLx8+MP5eJht/6m
-        vSdUv1vfk2S+LXtxR6vepnnCGLbNc2912LfNh1PnbX/K+eZ4SnAOd90qQpc2
-        Nubtn731MWrz5KpO0Zt/OkXv7e5/DTohRgmip1Hv8AlH4ZZFIf5rvNsk9vn5
-        ebGO8AQdDPEefubSeWlT+KTXmlkK6DU3oJnjTKQ1cqTh70uPdVe6pn4X73/5
-        7l+jOWpL7wctZ1BIUdwuFUqIoFMo8AAvIyaManpNJMFA4NyipwIYIQGpNZpL
-        J0nBtWWXIhmE5UchZ0D4DWcJ45yZaWn6vsFvRzwIvSYOERCCFzp55VoLUQAP
-        MnjruHGCyYtxDLryhwbdGIcSt4uDKMaMmuDYVSmpxy1CqGsCASd1UIHTVKq4
-        QSOUdS54DxodpyFcXLJ6ZflJyTkRebtEJCu4lBMiv+EWPqMnIygHdldD4gWV
-        FghDYXTBUrqgJcKmNsKcNYL6S5EM0vL4t5QzKlrfLhXCRSq4ZILlodnUj812
-        REXoayZKAqFtKi/EeRCpgVgJmgYTlARVMHdxogzS8pOU24VgiKLFNDU+QD37
-        I2007h+cXJECR0lcYMbLxAAVE8wkApSl4UpBALyUwqAt30A97wYtZ7khbjg3
-        OFNcTLG8/xHcrNvg7H3yF5uXZDVu8OqqhILhjhcSKAviMAVbj4lR6vXc2/S5
-        lNAgM/cVuHmSNfdfyTq/pNxwdzGKSs6n43Bl97FuU2RGjDjh1xzCPDecQ8GV
-        F2iFQmMZsYYaVaQpGS8uZYO6/EzN+WSsLkHz8S77tG86WEWsoKzLen24kUp6
-        Wq7gc38bKhK1DbSrqolpzy7u8e0v2APfbfkPAAA=
-    http_version:
-  recorded_at: Fri, 25 Oct 2013 21:34:48 GMT
-recorded_with: VCR 2.6.0
+      encoding: UTF-8
+      string: '{"items":[{"user":{"reputation":153,"user_id":24301,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/01d83faf6c14aaaac09696dcf10fb3a9?s=128&d=identicon&r=PG","display_name":"Kh&#244;i","link":"http://gamedev.stackexchange.com/users/24301/kh%c3%b4i"},"badge_type":"named","rank":"bronze","badge_id":20,"link":"http://gamedev.stackexchange.com/badges/20/nice-question","name":"Nice
+        Question"},{"user":{"reputation":53,"user_id":15425,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/686ff70f2665c88681aa5a1717ca0a3b?s=128&d=identicon&r=PG","display_name":"GameBoii","link":"http://gamedev.stackexchange.com/users/15425/gameboii"},"badge_type":"named","rank":"bronze","badge_id":20,"link":"http://gamedev.stackexchange.com/badges/20/nice-question","name":"Nice
+        Question"},{"user":{"reputation":229,"user_id":8320,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/fd94231c21fe817835a1f797979945e5?s=128&d=identicon&r=PG","display_name":"LukeN","link":"http://gamedev.stackexchange.com/users/8320/luken"},"badge_type":"named","rank":"bronze","badge_id":20,"link":"http://gamedev.stackexchange.com/badges/20/nice-question","name":"Nice
+        Question"},{"user":{"reputation":123,"user_id":36674,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/868c67cd2d96685d2ec0a8bd472a2f69?s=128&d=identicon&r=PG","display_name":"Blackhole","link":"http://gamedev.stackexchange.com/users/36674/blackhole"},"badge_type":"named","rank":"bronze","badge_id":20,"link":"http://gamedev.stackexchange.com/badges/20/nice-question","name":"Nice
+        Question"},{"user":{"reputation":332,"user_id":516,"user_type":"registered","accept_rate":50,"profile_image":"https://www.gravatar.com/avatar/125a471032cdef6e8de28ff6d54c7324?s=128&d=identicon&r=PG","display_name":"Dani","link":"http://gamedev.stackexchange.com/users/516/dani"},"badge_type":"named","rank":"bronze","badge_id":20,"link":"http://gamedev.stackexchange.com/badges/20/nice-question","name":"Nice
+        Question"},{"user":{"reputation":11827,"user_id":189,"user_type":"registered","accept_rate":100,"profile_image":"https://www.gravatar.com/avatar/0087f137790db9fb677130c0d03f74e7?s=128&d=identicon&r=PG","display_name":"Ricket","link":"http://gamedev.stackexchange.com/users/189/ricket"},"badge_type":"named","rank":"bronze","badge_id":20,"link":"http://gamedev.stackexchange.com/badges/20/nice-question","name":"Nice
+        Question"},{"user":{"reputation":196,"user_id":7520,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/a8c1f92043bff815c0a60ed1bc360487?s=128&d=identicon&r=PG","display_name":"fairstar","link":"http://gamedev.stackexchange.com/users/7520/fairstar"},"badge_type":"named","rank":"bronze","badge_id":20,"link":"http://gamedev.stackexchange.com/badges/20/nice-question","name":"Nice
+        Question"},{"user":{"reputation":153,"user_id":1036,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/bdea66420888d70b8e2f864c04b43fd9?s=128&d=identicon&r=PG","display_name":"elwyn","link":"http://gamedev.stackexchange.com/users/1036/elwyn"},"badge_type":"named","rank":"bronze","badge_id":20,"link":"http://gamedev.stackexchange.com/badges/20/nice-question","name":"Nice
+        Question"},{"user":{"reputation":525,"user_id":17627,"user_type":"registered","accept_rate":79,"profile_image":"https://www.gravatar.com/avatar/81de40cc6a8f220fe3ac104f1716cf10?s=128&d=identicon&r=PG&f=1","display_name":"Tim
+        Winter","link":"http://gamedev.stackexchange.com/users/17627/tim-winter"},"badge_type":"named","rank":"bronze","badge_id":20,"link":"http://gamedev.stackexchange.com/badges/20/nice-question","name":"Nice
+        Question"},{"user":{"reputation":51,"user_id":14084,"user_type":"unregistered","profile_image":"https://www.gravatar.com/avatar/df2529c2261bfb6471765a5453d0298a?s=128&d=identicon&r=PG","display_name":"2D_Guy","link":"http://gamedev.stackexchange.com/users/14084/2d-guy"},"badge_type":"named","rank":"bronze","badge_id":20,"link":"http://gamedev.stackexchange.com/badges/20/nice-question","name":"Nice
+        Question"}],"has_more":true,"quota_max":10000,"quota_remaining":9917}'
+    http_version: 
+  recorded_at: Sun, 19 Jul 2015 23:12:10 GMT
+recorded_with: VCR 2.7.0
