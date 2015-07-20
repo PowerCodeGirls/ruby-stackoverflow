@@ -2,11 +2,17 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.2/comments/182466;182465?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&site=gamedev
+    uri: https://api.stackexchange.com/2.2/comments/104174??key=&access_token=&site=gamedev
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -17,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Access-Control-Allow-Origin:
-      - '*'
+      - "*"
       Access-Control-Allow-Methods:
       - GET, POST
       Access-Control-Allow-Credentials:
@@ -25,13 +31,12 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Date:
-      - Mon, 20 Jul 2015 00:27:22 GMT
+      - Mon, 20 Jul 2015 15:15:39 GMT
       Content-Length:
-      - '493'
+      - '315'
     body:
-      encoding: UTF-8
-      string: '{"items":[{"owner":{"reputation":105,"user_id":45026,"user_type":"registered","profile_image":"http://i.stack.imgur.com/63y8N.png?s=128&g=1","display_name":"Lex
-        Webb","link":"http://gamedev.stackexchange.com/users/45026/lex-webb"},"reply_to_user":{"reputation":2175,"user_id":19427,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/a88ae65009215d88b7aef50d2d7f5326?s=128&d=identicon&r=PG","display_name":"snake5","link":"http://gamedev.stackexchange.com/users/19427/snake5"},"edited":false,"score":0,"creation_date":1437351240,"post_id":104080,"comment_id":182466},{"owner":{"reputation":9,"user_id":67845,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/adcd1f1ead38c39ac2fcbdd1e14008f7?s=128&d=identicon&r=PG","display_name":"Grimmdev","link":"http://gamedev.stackexchange.com/users/67845/grimmdev"},"reply_to_user":{"reputation":236,"user_id":41345,"user_type":"registered","accept_rate":62,"profile_image":"http://i.stack.imgur.com/JWrsm.png?s=128&g=1","display_name":"Evorlor","link":"http://gamedev.stackexchange.com/users/41345/evorlor"},"edited":false,"score":0,"creation_date":1437349512,"post_id":104254,"comment_id":182465}],"has_more":false,"quota_max":10000,"quota_remaining":9867}'
+      encoding: ASCII-8BIT
+      string: '{"items":[{"owner":{"reputation":485,"user_id":18505,"user_type":"registered","accept_rate":62,"profile_image":"https://www.gravatar.com/avatar/fe17c3f5d99fa221fc0462d12ec2a32b?s=128&d=identicon&r=PG","display_name":"mm24","link":"http://gamedev.stackexchange.com/users/18505/mm24"},"edited":false,"score":0,"creation_date":1374070872,"post_id":59292,"comment_id":104174}],"has_more":false,"quota_max":300,"quota_remaining":289}'
     http_version: 
-  recorded_at: Mon, 20 Jul 2015 00:27:22 GMT
-recorded_with: VCR 2.7.0
+  recorded_at: Mon, 20 Jul 2015 15:15:40 GMT
+recorded_with: VCR 2.9.3
