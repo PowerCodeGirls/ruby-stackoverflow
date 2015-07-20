@@ -74,7 +74,7 @@ module RubyStackoverflow
 
     it 'should get user replied comments' do
       VCR.use_cassette('users_replied_comments') do
-        response = RubyStackoverflow.users_with_replied_comments(['707894','1004415'], '1300151')
+        response = RubyStackoverflow.users_with_replied_comments('1430', '189')
 
         expect(response.data.last.respond_to?(:display_name)).to be_truthy
         expect(response.data.first.display_name).to eq('felipeclopes')

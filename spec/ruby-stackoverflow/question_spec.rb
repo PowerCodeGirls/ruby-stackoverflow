@@ -18,7 +18,7 @@ module RubyStackoverflow
 
     it 'should get questions by id' do
       VCR.use_cassette('questions_by_ids') do
-        response = RubyStackoverflow.questions_by_ids(['19294359'])
+        response = RubyStackoverflow.questions_by_ids(['104252'])
 
         expect(response.data.is_a?(Array)).to be_truthy
         expect(response.data.last.respond_to?(:answer_count)).to be_truthy
@@ -27,22 +27,22 @@ module RubyStackoverflow
 
     it 'should get answers of questions' do
       VCR.use_cassette('questions_answers') do
-        response = RubyStackoverflow.answers_of_questions(['16067043','19401289'])
+        response = RubyStackoverflow.answers_of_questions(['85','46463'])
 
         expect(response.data.is_a?(Array)).to be_truthy
-        expect(response.data.last.answers.count).to eq(1)
-        expect(response.data.first.answers.last.answer_id).to eq(19401432)
+        expect(response.data.last.answers.count).to eq(12)
+        expect(response.data.first.answers.last.answer_id).to eq(107)
       end
     end
 
     it 'should get comments of questions' do
       VCR.use_cassette('questions_comments') do
-        response = RubyStackoverflow.comments_of_questions(['13804832'])
+        response = RubyStackoverflow.comments_of_questions(['20'])
         data = response.data.last
 
         expect(response.data.is_a?(Array)).to be_truthy
         expect(data.respond_to?(:comments)).to be_truthy
-        expect(data.comments.first.owner[:user_id]).to eq(87189)
+        expect(data.comments.first.owner[:user_id]).to eq(26826)
       end
     end
 

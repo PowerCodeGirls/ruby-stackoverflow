@@ -12,5 +12,5 @@ RSpec.configure do |config|
   end
 
   config.fail_fast = true
-  config.order = 'random'
+  #config.order = 'random'
 end
