@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.2/badges//tags?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&inname=unity&key=ZEGYIdaRKJ4eFpqjOrX6dw((&max=bronze&min=gold&site=gamedev&sort=rank
+    uri: https://api.stackexchange.com/2.2/badges//tags?access_token=CVypq8418U18d1dmKkgU1g))&inname=unity&key=Jv42M9)5XAaAea)c2ZyeeA((&max=bronze&min=gold&pagesize=100&site=gamedev&sort=rank
     body:
       encoding: US-ASCII
       string: ''
@@ -25,12 +25,12 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Date:
-      - Sun, 19 Jul 2015 23:42:07 GMT
+      - Fri, 24 Jul 2015 21:38:43 GMT
       Content-Length:
-      - '205'
+      - '201'
     body:
       encoding: UTF-8
-      string: '{"items":[{"badge_type":"tag_based","award_count":6,"rank":"bronze","badge_id":91,"link":"http://gamedev.stackexchange.com/badges/91/unity","name":"unity"},{"badge_type":"tag_based","award_count":1,"rank":"silver","badge_id":140,"link":"http://gamedev.stackexchange.com/badges/140/unity","name":"unity"}],"has_more":false,"quota_max":10000,"quota_remaining":9893}'
+      string: '{"items":[{"badge_type":"tag_based","award_count":6,"rank":"bronze","badge_id":91,"link":"http://gamedev.stackexchange.com/badges/91/unity","name":"unity"},{"badge_type":"tag_based","award_count":1,"rank":"silver","badge_id":140,"link":"http://gamedev.stackexchange.com/badges/140/unity","name":"unity"}],"has_more":false,"quota_max":10000,"quota_remaining":9999}'
     http_version: 
-  recorded_at: Sun, 19 Jul 2015 23:42:08 GMT
+  recorded_at: Fri, 24 Jul 2015 21:38:44 GMT
 recorded_with: VCR 2.7.0

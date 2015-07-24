@@ -2,28 +2,22 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.2/users/68829/notifications/unread?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&site=gamedev
+    uri: https://api.stackexchange.com/2.2/users/57042/notifications/unread?access_token=CVypq8418U18d1dmKkgU1g))&key=Jv42M9)5XAaAea)c2ZyeeA((&pagesize=100&site=gamedev
     body:
       encoding: US-ASCII
       string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
+    headers: {}
   response:
     status:
-      code: 200
-      message: OK
+      code: 400
+      message: Bad Request
     headers:
       Cache-Control:
       - private
       Content-Type:
       - application/json; charset=utf-8
       Access-Control-Allow-Origin:
-      - "*"
+      - '*'
       Access-Control-Allow-Methods:
       - GET, POST
       Access-Control-Allow-Credentials:
@@ -31,12 +25,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Date:
-      - Mon, 20 Jul 2015 17:05:53 GMT
+      - Fri, 24 Jul 2015 21:41:03 GMT
       Content-Length:
-      - '82'
+      - '106'
     body:
-      encoding: ASCII-8BIT
-      string: '{"items":[],"has_more":false,"quota_max":10000,"quota_remaining":9819}'
+      encoding: UTF-8
+      string: '{"error_id":402,"error_message":"access_token does not match user id
+        57042","error_name":"invalid_access_token"}'
     http_version: 
-  recorded_at: Mon, 20 Jul 2015 17:05:54 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Fri, 24 Jul 2015 21:41:02 GMT
+recorded_with: VCR 2.7.0
