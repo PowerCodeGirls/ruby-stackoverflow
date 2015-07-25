@@ -2,59 +2,42 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.2/users/1363236/questions/no-answers?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    uri: https://api.stackexchange.com/2.2/users/34618/questions/no-answers?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&site=gamedev
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "U2VydmVy":
-      - !binary |-
-        bmdpbng=
-      !binary "RGF0ZQ==":
-      - !binary |-
-        RnJpLCAyNSBPY3QgMjAxMyAyMToyMTozNCBHTVQ=
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
-      !binary "Q29ubmVjdGlvbg==":
-      - !binary |-
-        a2VlcC1hbGl2ZQ==
-      !binary "Q2FjaGUtQ29udHJvbA==":
-      - !binary |-
-        cHJpdmF0ZQ==
-      !binary "Q29udGVudC1FbmNvZGluZw==":
-      - !binary |-
-        Z3ppcA==
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
-      - !binary |-
-        Kg==
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
-      - !binary |-
-        R0VULCBQT1NU
-      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
-      - !binary |-
-        ZmFsc2U=
-      !binary "Q29udGVudC1MZW5ndGg=":
-      - !binary |-
-        NDAx
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Mon, 20 Jul 2015 17:12:09 GMT
+      Content-Length:
+      - '434'
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAEAIWSwY6jMAyGXwXlMCcYCpQOQar2uNe9r0bIDYZaDQmTmDJV
-        Ne++gdLVHFbanCLbv387X+6CGAcv6t938TGhZ7KmoVbUmSzLvNpVsVAOYQ23
-        wBgSRZWXh32xL2OhwXMDiulKfPtH3ivrllAswPgZXaPsZFjUu1gwsQ4pcbZz
-        xDYi4xm0jjSdHNquI4WRNdEZnb1MIpRDvwwptsB7LK6E87NfFhra2aAT9V1M
-        PhitKxSHIi8OsWjJjxpujYFhsXRw8w78eaDQ2OE48bpfEJRh0lXOt3GtxJ48
-        o8M2VI7OdqSxoQH6dXLm0ddpOs/za+/gCgzuVdkhfVxTLLCUeaHeMJflPisr
-        lCd52u1loWRW5OqHP2Z59dIeqUXDpKx5ccdfP4OTJnPZDEL/8DDqYq/oOm3n
-        1WAZ0afbeum3db7+r31CDvqNcBoQJGyTDUHyDUFiTfIXAfnmQTG8Rt2B9vgV
-        MHxMlqFxOAAZMr2opXw7PMMDfC5wwonFGXwzrN/hof0D/bUbfHoCAAA=
-    http_version:
-  recorded_at: Fri, 25 Oct 2013 21:21:34 GMT
-recorded_with: VCR 2.6.0
+      string: '{"items":[{"tags":["opengl","c++11","fractal"],"owner":{"reputation":1,"user_id":34618,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/61cc34c3ccafb39767318ae74f29054f?s=128&d=identicon&r=PG","display_name":"darpan1118","link":"http://gamedev.stackexchange.com/users/34618/darpan1118"},"is_answered":false,"view_count":6,"answer_count":0,"score":-1,"last_activity_date":1437409781,"creation_date":1437409781,"question_id":104285,"link":"http://gamedev.stackexchange.com/questions/104285/help-with-zoom-in-functionality-in-mandelbrot-set","title":"Help
+        with Zoom in Functionality in Mandelbrot set"}],"has_more":false,"quota_max":10000,"quota_remaining":9806}'
+    http_version: 
+  recorded_at: Mon, 20 Jul 2015 17:12:09 GMT
+recorded_with: VCR 2.9.3
