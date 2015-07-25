@@ -10,7 +10,7 @@ module RubyStackoverflow
       VCR.use_cassette('badges') do
         response = RubyStackoverflow.badges({min: 'gold', max: 'bronze', sort: 'rank'})
         expect(response.data.is_a?(Array)).to be_truthy
-        expect(response.data.count).to eq(30)
+        expect(response.data.count).to eq(100)
         expect(response.data.first.name).to eq('Teacher')
       end
     end
@@ -40,7 +40,7 @@ module RubyStackoverflow
         response = RubyStackoverflow.badges_between_dates({page: 1, pagesize: 10})
 
         expect(response.data.is_a?(Array)).to be_truthy
-        expect(response.data.count).to eq(10)
+        expect(response.data.count).to eq(100)
         expect(response.data.first.name).to eq('Editor')
       end
     end
@@ -50,7 +50,7 @@ module RubyStackoverflow
         response = RubyStackoverflow.badges_between_dates_by_ids([146, 20],{page: 1, pagesize: 10})
 
         expect(response.data.is_a?(Array)).to be_truthy
-        expect(response.data.count).to eq(10)
+        expect(response.data.count).to eq(100)
         expect(response.data.first.name).to eq('Nice Question')
       end
     end

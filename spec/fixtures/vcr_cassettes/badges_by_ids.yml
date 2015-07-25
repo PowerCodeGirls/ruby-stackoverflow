@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.2/badges/1;2?access_token=eS6EyGy7zC8Rqmpz5CDxSg))&key=ZEGYIdaRKJ4eFpqjOrX6dw((&max=bronze&min=gold&site=gamedev&sort=rank
+    uri: https://api.stackexchange.com/2.2/badges/1;2?access_token=CVypq8418U18d1dmKkgU1g))&key=Jv42M9)5XAaAea)c2ZyeeA((&max=bronze&min=gold&pagesize=100&site=gamedev&sort=rank
     body:
       encoding: US-ASCII
       string: ''
@@ -25,12 +25,12 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Date:
-      - Sun, 19 Jul 2015 23:06:32 GMT
+      - Fri, 24 Jul 2015 21:39:54 GMT
       Content-Length:
       - '208'
     body:
       encoding: UTF-8
-      string: '{"items":[{"badge_type":"named","award_count":6574,"rank":"bronze","badge_id":1,"link":"http://gamedev.stackexchange.com/badges/1/teacher","name":"Teacher"},{"badge_type":"named","award_count":9533,"rank":"bronze","badge_id":2,"link":"http://gamedev.stackexchange.com/badges/2/student","name":"Student"}],"has_more":false,"quota_max":10000,"quota_remaining":9925}'
+      string: '{"items":[{"badge_type":"named","award_count":6588,"rank":"bronze","badge_id":1,"link":"http://gamedev.stackexchange.com/badges/1/teacher","name":"Teacher"},{"badge_type":"named","award_count":9557,"rank":"bronze","badge_id":2,"link":"http://gamedev.stackexchange.com/badges/2/student","name":"Student"}],"has_more":false,"quota_max":10000,"quota_remaining":9995}'
     http_version: 
-  recorded_at: Sun, 19 Jul 2015 23:06:32 GMT
+  recorded_at: Fri, 24 Jul 2015 21:39:54 GMT
 recorded_with: VCR 2.7.0

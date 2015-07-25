@@ -58,7 +58,7 @@ module RubyStackoverflow
     end
 
     def key_params
-      {key: configuration.client_key, site: 'gamedev', access_token: configuration.access_token}
+      {key: configuration.client_key, site: 'gamedev', pagesize: 100, access_token: configuration.access_token}
     end
 
     def configuration

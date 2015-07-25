@@ -99,7 +99,7 @@ module RubyStackoverflow
         response = RubyStackoverflow.users_with_mentioned_comments(['39518','40264'])
 
         expect(response.data.last.respond_to?(:display_name)).to be_truthy
-        expect(response.data.first.display_name).to eq('Etienne Charland')
+        expect(response.data.first.display_name).to eq('Miguet Schwab')
         expect(response.data.first.comments.count).to eq(1)
         expect(response.data.first.comments.last.score).to eq(0)
       end
@@ -116,8 +116,7 @@ module RubyStackoverflow
     end
     it 'should get users unread notifications' do
       VCR.use_cassette('users_unread_notifications') do
-        response = RubyStackoverflow.users_unread_notifications('68829')
-
+        response = RubyStackoverflow.users_unread_notifications('57042')
         expect(response.data.last.respond_to?(:notification_type)).to be_falsey
       end
     end
@@ -129,7 +128,7 @@ module RubyStackoverflow
         expect(response.data.last.respond_to?(:display_name)).to be_truthy
         expect(response.data.first.display_name).to eq('Andrew')
         expect(response.data.first.questions.count).to eq(2)
-        expect(response.data.first.questions.last.view_count).to eq(548)
+        expect(response.data.first.questions.last.view_count).to eq(556)
       end
     end
 
@@ -155,14 +154,14 @@ module RubyStackoverflow
 
         expect(response.data.last.respond_to?(:display_name)).to be_truthy
         expect(response.data.first.display_name).to eq('Daniel Holst')
-        expect(response.data.first.questions.count).to eq(2)
-        expect(response.data.first.questions.last.view_count).to eq(52)
+        expect(response.data.first.questions.count).to eq(1)
+        expect(response.data.first.questions.last.view_count).to eq(54)
       end
     end
 
     it 'should get users unaccepted questions' do
       VCR.use_cassette('users_unaccepted_questions') do
-        response = RubyStackoverflow.users_unaccepted_questions(['35919'])
+        response = RubyStackoverflow.users_unaccepted_questions(['104510'])
 
         expect(response.data.last.respond_to?(:display_name)).to be_truthy
         expect(response.data.first.display_name).to eq('Greg Quinn')
@@ -237,7 +236,7 @@ module RubyStackoverflow
 
         expect(data.count).to eq(1)
         expect(data.last.respond_to?(:user_id)).to be_truthy
-        expect(data.first.tags.count).to eq(30)
+        expect(data.first.tags.count).to eq(100)
         expect(data.first.tags.last.tag_name).to eq('3d')
       end
     end
@@ -250,7 +249,7 @@ module RubyStackoverflow
         expect(data.count).to eq(1)
         expect(data.last.respond_to?(:user_id)).to be_truthy
         expect(data.first.tags.count).to eq(5)
-        expect(data.first.tags.last.tag_name).to eq('unity')
+        expect(data.first.tags.last.tag_name).to eq('gamepad')
       end
     end
 
@@ -261,8 +260,8 @@ module RubyStackoverflow
 
         expect(data.count).to eq(2)
         expect(data.last.respond_to?(:user_id)).to be_truthy
-        expect(data.first.posts.count).to eq(20)
-        expect(data.first.posts.last.timeline_type).to eq('answered')
+        expect(data.first.posts.count).to eq(75)
+        expect(data.first.posts.last.timeline_type).to eq('commented')
       end
     end
 

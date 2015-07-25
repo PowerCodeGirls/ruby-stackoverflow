@@ -12,7 +12,7 @@ module RubyStackoverflow
         response = RubyStackoverflow.comments({min: 1, max: 10, sort: 'votes'})
 
         expect(response.data.is_a?(Array)).to be_truthy
-        expect(response.data.count).to eq(30)
+        expect(response.data.count).to eq(100)
         expect(response.data.first.edited).to eq(false)
         expect(response.data.first.score).to eq(10)
       end
@@ -20,9 +20,9 @@ module RubyStackoverflow
 
     it 'should fetch comments by ids' do
       VCR.use_cassette('comments_by_ids') do
-        response = RubyStackoverflow.comments_by_ids(['182466', '182465'])
+        response = RubyStackoverflow.comments_by_ids(['104174'])
         expect(response.data.is_a?(Array)).to be_truthy
-        expect(response.data.count).to eq(2)
+        expect(response.data.count).to eq(1)
         expect(response.data.first.edited).to eq(false)
         expect(response.data.first.score).to eq(0)
       end
